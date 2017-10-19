@@ -1,0 +1,73 @@
+// a single entry block on the HP
+
+$num-blocks: 45;
+
+// TODO:
+// Convert single long gradients into chopped-up bits
+// apply each bit to each %3 == 1 and %3 == 2 (i.e. 1st and 2nd in row) item
+// + use offset :before elements to weave the horizontal gray lines
+
+.m-block {
+  width: 30%;
+  position: relative;
+
+  $ordlist: ();
+  @for $i from 1 through $num-blocks {
+    $ordlist: append($ordlist, $i);
+  }
+  $ordlist: shuffle($ordlist);
+
+  $lgrad: ();
+  $rgrad: ();
+
+  @for $i from 1 through $num-blocks {
+    &:nth-child(#{$i}) {
+      $ord: nth($ordlist, $i);
+      order: $ord;
+    }
+  }
+
+  @for $i from 1 through $num-blocks {
+    $which: '';
+    $mod: $i % 6;
+    // reverse the shuffled list
+    $nth: index($ordlist, $i);
+
+    &:nth-child(#{$nth}) {
+      @if $mod == 1 or $mod == 5 {
+        @include a();
+      }
+      @if $mod == 2 or $mod == 4 {
+        @include b();
+      }
+      @if $mod == 3 {
+        @include c();
+      }
+      @if $mod == 0 {
+        @include d();
+      }
+    }
+
+    @if $mod == 1 or $mod == 4 {
+      $lgrad: append($lgrad, $nth);
+    }
+    @if $mod == 2 or $mod == 5 {
+      $rgrad: append($rgrad, $nth);
+    }
+  }
+
+  // scss-lint:disable DeclarationOrder
+  @include lgrad($lgrad);
+  @include rgrad($rgrad);
+  // scss-lint:enable DeclarationOrder
+
+  @media (max-width: $media-smallish) {
+    width: 80%;
+  }
+
+  &__link {
+    font-family: $font-body;
+    text-transform: initial;
+    text-decoration: none;
+  }
+}

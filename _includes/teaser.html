@@ -1,0 +1,31 @@
+<article class="m-block">
+  <h3 class="m-block__verb">
+  </h3>
+  <h2 class="m-block__title">
+    <a class="m-block__link" href="{{ include.stuff.url }}">
+      {% if include.stuff.verb %}
+        {{ include.stuff.verb }}
+      {% elsif include.stuff.layout == 'activity' %}
+        visit
+      {% elsif include.stuff.layout == 'restaurant' %}
+        eat at
+      {% endif %}
+      {% if include.stuff.prefix %}
+        {{include.stuff.prefix}}
+      {% endif %}
+      {{ include.stuff.name }}
+    </a>
+  </h2>
+
+  <script>
+    googleMapsPlaces.push({
+      name: "{{ include.stuff.name }}",
+      address: "{{ include.stuff.address }}",
+      website: "{{ include.stuff.website }}",
+      url: "{{ include.stuff.url }}",
+      type: "{{ include.stuff.layout }}",
+      lat: "{{ include.stuff.lat }}",
+      lng: "{{ include.stuff.lng }}"
+    })
+  </script>
+</article>
