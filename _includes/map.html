@@ -7,15 +7,12 @@
     var geocoder = new google.maps.Geocoder();
     var infowindow = new google.maps.InfoWindow();
 
-    // This is for the North Door.
-    var ndLatLong = {
-      lat: 30.2648708,
-      lng: -97.73396439999999
-    }
-
     var map = new google.maps.Map(document.getElementById('m-map'), {
-      zoom: 14,
-      center: ndLatLong
+      zoom: {{site.map_options.zoom}},
+      center: {
+        lat: {{site.map_options.lat}},
+        lng: {{site.map_options.lng}}
+      }
     });
 
     googleMapsPlaces.forEach(function(e, i) {
@@ -62,4 +59,4 @@
   }
 </script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{site.google_maps_api}}&signed_in=true&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{site.map_options.api_key}}&callback=initMap"></script>

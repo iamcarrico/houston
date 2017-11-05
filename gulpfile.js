@@ -160,7 +160,7 @@ gulp.task('watch', function () {
  */
 gulp.task('build', function (cb) {
   return runSequence(
-    'test',
+//    'test',
     'sass',
     'jekyll',
     cb

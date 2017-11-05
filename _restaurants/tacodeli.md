@@ -1,14 +1,13 @@
 ---
 layout: restaurant
 name:  "Tacodeli"
-address: 1500 Spyglass Dr, Austin, TX 78746
+address: 1902 Washington Ave D, Houston, TX 77007
 website: http://www.tacodeli.com/
-downtown_walkable: no
 veggie_option: yes
 vegan_option: yes
 cost: 2
-lat: 30.2584411
-lng: -97.78763979999997
+lat: 29.7672072
+lng: -95.3861524
 ---
 
-Tacos. Tacos. Tacos. One of the many famous taco joints in Austin. Only open for breakfast and lunch. Don't miss Rupl's favorite: El Picosito.
+One of the great taco joints that started in Austin, TX.

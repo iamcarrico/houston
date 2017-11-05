@@ -3,8 +3,9 @@ layout: activity
 name:  "The name of the activity"
 address: A full address.
 website: A website, if they have one.
-downtown_walkable: yes/no
 prefix: e.g. 'the'
+lat: 00.000
+lng: 00.000
 ---
 
 A description. Something brief, preferably.
