@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://stuffinhouston.com"
 development: false
 
-google_analytics: ""
+google_analytics: "UA-70036618-2"
 
 map_options:
   lat: 29.7625152
