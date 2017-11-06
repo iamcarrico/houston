@@ -26,6 +26,17 @@
       type: "{{ include.stuff.layout }}",
       lat: "{{ include.stuff.lat }}",
       lng: "{{ include.stuff.lng }}"
-    })
+    });
+    {% for location in include.stuff.locations %}
+      googleMapsPlaces.push({
+        name: "{{ include.stuff.name }}",
+        address: "{{ location.address }}",
+        website: "{{ include.stuff.website }}",
+        url: "{{ include.stuff.url }}",
+        type: "{{ include.stuff.layout }}",
+        lat: "{{ location.lat }}",
+        lng: "{{ location.lng }}"
+      });
+    {% endfor %}
   </script>
 </article>

@@ -8,6 +8,13 @@ vegan_option: yes/no
 cost: 1-5
 lat: 00.000
 lng: 00.000
+locations:
+  - lat:
+    lng:
+    address:
+  - lat:
+    lng:
+    address:
 ---
 
 A description. Something brief, preferably.

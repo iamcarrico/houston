@@ -42,9 +42,14 @@
     }
   }
 
+  &__locations {
+    margin-bottom: 0;
+  }
+
   &__map {
     iframe {
       width: 100%;
     }
   }
+
 }

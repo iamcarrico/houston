@@ -27,6 +27,15 @@
     </ul>
   </div>
 
+  {% if page.locations %}
+    <h2 class="m-single__locations">Other locations:</h2>
+    <ul  class="m-single__locations--list">
+    {% for location in page.locations %}
+      <li  class="m-single__locations--item"><a href="https://www.google.com/maps/search/?api=1&query={{page.name | cgi_escape}}+{{ page.address | cgi_escape }}" target="_blank">{{ location.address }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
   <div class="m-single__map">
     <iframe class="maps-frame" width="600" height="450" frameborder="0" style="border:0" allowfullscreen
               src="https://www.google.com/maps/embed/v1/place?q={{page.name | cgi_escape}}+{{ page.address | cgi_escape }}&zoom=17&key={{ site.map_options.api_key }}">
