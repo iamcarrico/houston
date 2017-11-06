@@ -7,6 +7,24 @@
 $base-font-size:   16px;
 $base-line-height: 24px;
 
+@font-face {
+  font-family: "Madina Script";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: font-url("./fonts/madina-script.woff2") format("woff2"),
+       font-url("./fonts/madina-script.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: font-url("./fonts/futura-pt.woff2") format("woff2"),
+       font-url("./fonts/futura-pt.woff") format("woff");
+}
+
 // The following font family declarations are based on the Microsoft core web
 // fonts which are common fonts available on most computer systems. The DejaVu
 // and Nimbus Sans fonts are commonly available on Linux systems where the MS
@@ -33,15 +51,29 @@ $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 $esk: "eskapade-fraktur", Georgia, "Times New Roman", "DejaVu Serif", sans-serif;
 $cal: "calluna", Helvetica, Arial, "Nimbus Sans L", serif;
 
+$futura: 'Futura PT', $helvetica;
+$madina: 'Madina Script', $georgia;
+
+
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
+
+// What fonts we are using.
+$body-font: $futura;
+$form-font: $futura;
+
+@mixin madina {
+  font-family: $madina;
+  font-weight: normal;
+}
+
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $helvetica; // The font family set on the html element.
-$font-body:        $helvetica;
+$base-font-family: $futura; // The font family set on the html element.
+$font-body:        $futura;
 $font-monospace:   $courier;
 $form-font-family: $arial;
 
-$font-head: $esk;
-$font-body: $cal;
+$font-head: $madina;
+$font-body: $futura;
