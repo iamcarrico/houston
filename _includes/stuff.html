@@ -29,7 +29,7 @@
 
   <div class="m-single__map">
     <iframe class="maps-frame" width="600" height="450" frameborder="0" style="border:0" allowfullscreen
-              src="https://www.google.com/maps/embed/v1/place?q={{page.name | cgi_escape}}+{{ page.address | cgi_escape }}&zoom=17&key={{site.google_maps_api}}">
+              src="https://www.google.com/maps/embed/v1/place?q={{page.name | cgi_escape}}+{{ page.address | cgi_escape }}&zoom=17&key={{ site.map_options.api_key }}">
     </iframe>
   </div>
 </article>
