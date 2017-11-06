@@ -3,7 +3,7 @@ title: Stuff to do in Houston
 
 description: > # A site of things to do in Houston for when people visit for conferences etc.
 baseurl: ""
-url: "http://stuffinhouston.com"
+url: "https://stuffinhouston.com"
 development: false
 
 google_analytics: "UA-70036618-2"

@@ -8,6 +8,16 @@ vegan_option: yes
 cost: 3
 lat: 29.7503038
 lng: -95.4816219
+locations:
+  - lat: 29.7426962
+    lng: -95.4203029
+    address: 2555 Kirby Dr, Houston, TX 77019
+  - lat: 29.7610147
+    lng: -95.364218
+    address: 420 Main St, Houston, TX 77002
+  - lat: 29.7195524
+    lng: -95.418724
+    address: 2424 Dunstan Rd, Houston, TX 77005
 ---
 
 A description. Something brief, preferably.
