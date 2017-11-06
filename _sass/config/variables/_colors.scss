@@ -32,9 +32,20 @@ $visited        : $link;
 $selection-bg   : #66B360;
 $selection      : $white;
 
+
+
 $magenta: #F06;
 $purpred: #E93B7E;
 $blue: #4F60FD;
+
+$pink: #fddddd;
+$gold: #ad936e;
+$grey: #818184;
+
+$color-1: $gold;
+$color-2: $grey;
+$color-3: $pink;
+
 
 @function gradient($direction) {
   @return linear-gradient($direction, $purpred, $blue);
