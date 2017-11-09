@@ -7,4 +7,4 @@ lat: 29.7263918
 lng: -95.391507
 ---
 
-A description. Something brief, preferably.
+Houston's non-collecting instution showing contemporary art to the public since 1948.

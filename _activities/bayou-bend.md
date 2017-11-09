@@ -8,4 +8,4 @@ lat: 29.7605167
 lng: -95.4239077
 ---
 
-A description. Something brief, preferably.
+Bayou Bend Collection and Gardens, located in the River Oaks community in Houston, Texas, United States, is a 14-acre facility of the Museum of Fine Arts, Houston that houses a collection of decorative art, paintings and furniture

@@ -9,4 +9,4 @@ lng: -95.7515032
 verb: "watch a movie"
 ---
 
-A description. Something brief, preferably.
+The Austin-based movie theatre has been brought to Houston. Sit back in comfortable chairs, get a cocktail, as well as some grub. No better way to see a film.

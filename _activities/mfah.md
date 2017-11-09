@@ -8,4 +8,4 @@ lat: 29.7256053
 lng: -95.3927274
 ---
 
-A description. Something brief, preferably.
+Houston's primary fine art musem and gallery. See a wonderful collection of permanent works, as well as constantly updating collections.

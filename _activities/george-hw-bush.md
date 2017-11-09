@@ -7,4 +7,4 @@ lat: 29.7236788
 lng: -95.6896989
 ---
 
-A description. Something brief, preferably.
+One of the largest parks in Houston, sitting at 7,800 acres. Complete with walking trails, shooting ranges, ponds, and soccer fields.
