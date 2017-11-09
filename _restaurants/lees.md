@@ -10,4 +10,4 @@ lat: 29.7816599
 lng: -95.4002235
 ---
 
-A description. Something brief, preferably.
+What could be greater than some fried chicken and doughnuts? That's right— come stop by this classic restaraunt in the Heights for some food that is good for the soul.

@@ -20,4 +20,4 @@ locations:
     address: 3915 Kirby Dr, Houston, TX 77098
 ---
 
-A description. Something brief, preferably.
+A relatively new restaurant in Houston that has made a huge splash. Simple, organic, fresh Chinese food. Warning: when they say something is spicy, they mean i.

@@ -10,4 +10,4 @@ lat: 29.783617
 lng: -95.5480257
 ---
 
-A description. Something brief, preferably.
+All made-from-scratch Texas food. Come for the real experience of what Houston is all about.

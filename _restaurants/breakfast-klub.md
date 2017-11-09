@@ -10,4 +10,4 @@ lat: 29.73846
 lng: -95.3826039
 ---
 
-A description. Something brief, preferably.
+One of the most popular breakfast joints in all of Houston. Be sure to come early, the line can be quite intense.

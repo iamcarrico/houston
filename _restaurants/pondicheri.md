@@ -10,4 +10,4 @@ lat: 29.7414662
 lng: -95.4216324
 ---
 
-A description. Something brief, preferably.
+Some of the best Indian food you will find in America. Monday is known for having a completely vegetarian menu. 

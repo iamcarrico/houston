@@ -10,4 +10,4 @@ lat: 29.781695
 lng: -95.3960207
 ---
 
-A description. Something brief, preferably.
+A small Italian joint that boasts some of the best pizza in the Heights. Stop by for a small pizza and a glass of their impressive wine list.

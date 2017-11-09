@@ -17,4 +17,4 @@ locations:
     address: 3401 W T C Jester Blvd, Houston, TX 77018
 ---
 
-A description. Something brief, preferably.
+Houston's favorite tacoria— come by for completely made-from-scratch tacos. And don't forget to dump that salsa on there as well!

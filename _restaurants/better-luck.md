@@ -10,4 +10,4 @@ lat: 29.7813064
 lng: -95.4007918
 ---
 
-A description. Something brief, preferably.
+A center for classic comfort food and great cocktails in the Heights of Houston.

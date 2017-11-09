@@ -17,4 +17,4 @@ locations:
     address: 12525 Memorial Dr Ste 145, Houston, TX 77024
 ---
 
-A description. Something brief, preferably.
+A farm-to-table restaurant with several restaurants around Houston. Must-try for all visitors.

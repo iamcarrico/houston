@@ -10,4 +10,4 @@ lat: 29.7428911
 lng: -95.4082936
 ---
 
-A description. Something brief, preferably.
+Classic Italian family restaurant. A small pasta is plenty for almost anybody.

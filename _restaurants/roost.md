@@ -10,4 +10,4 @@ lat: 29.7448231
 lng: -95.4095819
 ---
 
-A description. Something brief, preferably.
+Small plates, great wine— you cannot go wrong with an evening at Roost.

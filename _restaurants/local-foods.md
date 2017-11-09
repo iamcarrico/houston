@@ -20,4 +20,4 @@ locations:
     address: 2424 Dunstan Rd, Houston, TX 77005
 ---
 
-A description. Something brief, preferably.
+A healthy, all-natural restaurant. Known for their lunch sandwhiches, and a common stop for folks across Houston.
